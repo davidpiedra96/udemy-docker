@@ -35,6 +35,7 @@ public class CursoController {
 	@GetMapping()
 	public List<Curso> listar() {
 		return cs.listar();
+		
 	}
 
 	@GetMapping("/{id}")
